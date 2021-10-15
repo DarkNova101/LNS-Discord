@@ -10,5 +10,7 @@
 
 ## API's 
 Google Sheets Library
+
 Discord Api
+
 Microsoft Email?? <- see above may not use
