@@ -1,8 +1,7 @@
 # User-specific stuff
 .idea/
-src/main/resources/credentials.json
-src/main/resources/config.yml
-config.yml
+credentials.json
+#config.yml
 
 *.iml
 *.ipr
