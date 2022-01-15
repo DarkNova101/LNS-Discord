@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+    id 'com.github.johnrengelman.shadow' version '5.2.0'
+}
+
+group 'me.nhall'
+version '1.0'
+
+
+repositories {
+    mavenCentral()
+
+    maven {
+        url "https://m2.dv8tion.net/releases"
+    }
+}
+
+dependencies {
+    implementation("net.dv8tion:JDA:5.0.0-alpha.4") {
+        exclude module: 'opus-java'
+    }
+    implementation('ch.qos.logback:logback-classic:1.2.10')
+    implementation("org.yaml:snakeyaml:1.30")
+}
+
